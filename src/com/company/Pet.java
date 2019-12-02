@@ -31,7 +31,7 @@ public class Pet {
 
     public String getInfo() { // если поставить final после public, дочерние классы не смогут перезаписать
         return "Pet [" + "age: " + age + ",shelter's name: " + shelter.getName() +
-                "shelter's address: " + shelter.getAddress() + ", color " + color + "]";
+                " shelter's address: " + shelter.getAddress() + ", color " + color + "]";
     }
 
     public int getAge() {

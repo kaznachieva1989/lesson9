@@ -40,7 +40,7 @@ public final class Dog extends Pet {
 
     @Override
     public String getInfo() {
-        return "Dog [" + "name: " + name + ", breed: " + breed + "command: " + commands + "]" + "\n" + super.getInfo();
+        return "Dog [" + "name: " + name + ", breed: " + breed + " command: " + commands + "]" + "\n" + super.getInfo();
     }
 
     public String getName() {
